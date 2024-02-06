@@ -1,0 +1,5 @@
+h5py==3.9.0
+numpy==1.26.4
+scikit-learn
+ipywidgets
+opencv-python
