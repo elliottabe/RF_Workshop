@@ -3,21 +3,13 @@ channels:
   - defaults
   - pytorch
   - nvidia
+  - conda-forge
 dependencies:
   - python=3.10.13
-  - pytorch::torchvision
-  - pytorch::pytorch
-  - defaults::pytorch-cuda=11.8
-  - pytorch::torchaudio
   - defaults::seaborn
-  - defaults::netcdf4
   - defaults::tqdm
   - defaults::pandas
   - defaults::ipykernel
-  - defaults::h5py
-  - pip:
-    - h5py
-    - scikit-learn
-    - ipywidgets
-    - opencv-python
-prefix: ~/miniconda3/envs/rf_workshop
+  - conda-forge::netcdf4
+  - conda-forge::h5py
+prefix: /home/eabe/miniconda3/envs/rf_workshop
